@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3585" started-at="2022-03-06T20:50:25Z" finished-at="2022-03-06T20:50:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3585" started-at="2022-03-06T20:50:25Z" finished-at="2022-03-06T20:50:28Z">
+      <class name="org.test.testScripts.Assignment1_GetAll">
+        <test-method status="PASS" signature="testCase5put()[pri:0, instance:org.test.testScripts.Assignment1_GetAll@61009542]" name="testCase5put" duration-ms="3540" started-at="2022-03-07T02:20:25Z" finished-at="2022-03-07T02:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5put -->
+      </class> <!-- org.test.testScripts.Assignment1_GetAll -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
