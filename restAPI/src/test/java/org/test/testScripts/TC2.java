@@ -15,6 +15,7 @@ public class TC2 {
 	@Test
 	public void testcase2() throws IOException
 	{
+		System.out.println("*******************Test case 2************************");
 		Properties pr=LoadPropertiesFile.propertiesFile("../restAPI/URI.properties");
 		HTTPMethods http = new HTTPMethods(pr);
 		Response res = http.getMethod("QA_Env_Employees_URI", TC1.responseidValue);
@@ -22,9 +23,9 @@ public class TC2 {
 		System.out.println("Response code " +res.statusCode());
 		System.out.println("REsponse Data " +res.asString());
 		
-		ResponseValidation.dataValidation("Janet", res, "fistname");
+		ResponseValidation.dataValidation("Amit", res, "fistname");
 		
-		
+		System.out.println("*******************Test case 2 Ends************************"); 
 	}
 
 }
