@@ -22,7 +22,7 @@ public class TC2 {
 		System.out.println("Response code " +res.statusCode());
 		System.out.println("REsponse Data " +res.asString());
 		
-		ResponseValidation.dataValidation("Amit", res, "fistname");
+		ResponseValidation.dataValidation("Janet", res, "fistname");
 		
 	}
 

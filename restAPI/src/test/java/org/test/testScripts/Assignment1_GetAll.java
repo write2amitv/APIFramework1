@@ -16,7 +16,7 @@ import com.jayway.restassured.response.Response;
 
 public class Assignment1_GetAll {
 		
-//	@Test
+	@Test
 	public void testcase1() throws IOException
 	{
 		System.out.println("**********TestCase 1 - - get all Data*******************");
@@ -30,7 +30,7 @@ public class Assignment1_GetAll {
 	
 	}
 	
-//	@Test
+	@Test
 	public void testcase2() throws IOException
 	{
 		System.out.println("**********TestCase 2 - - get*******************");
@@ -45,7 +45,7 @@ public class Assignment1_GetAll {
 	
 	static String responseValueID, savedValue;
 	static String uriKey = "Dummy_API_Users";
-//	@Test
+	@Test
 	public void testCase3Post() throws IOException
 	{
 		System.out.println("**********TestCase 3 - - post Data*******************");
@@ -63,7 +63,7 @@ public class Assignment1_GetAll {
 		ResponseValidation.dataValidation("Janet", res, "name");
 	}
 	
-//	@Test
+	@Test
 	public void testCase4getByID()	throws IOException
 	{
 		System.out.println("**********TestCase 4 - - Get Data By ID*******************");
