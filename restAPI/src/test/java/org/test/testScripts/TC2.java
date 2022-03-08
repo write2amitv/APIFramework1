@@ -24,6 +24,7 @@ public class TC2 {
 		
 		ResponseValidation.dataValidation("Janet", res, "fistname");
 		
+		
 	}
 
 }
