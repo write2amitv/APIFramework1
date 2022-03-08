@@ -40,7 +40,7 @@ public class Assignment1_GetAll {
 		Response res = http.getMethod("Dummy_API_One_User", "2");
 		
 		ResponseValidation.statusCodeValidation(200, res);
-		ResponseValidation.dataValidation("Amit", res, "data.first_name");
+		ResponseValidation.dataValidation("Janet", res, "data.first_name");
 	}
 	
 	static String responseValueID, savedValue;
@@ -60,7 +60,7 @@ public class Assignment1_GetAll {
 		
 		ResponseValidation.statusCodeValidation(201, res);
 		savedValue = responseValueID;
-		ResponseValidation.dataValidation("Janet", res, "name");
+		ResponseValidation.dataValidation("Amit", res, "name");
 	}
 	
 	@Test
